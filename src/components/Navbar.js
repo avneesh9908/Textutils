@@ -12,7 +12,8 @@ export default function Navbar(props) {
         {/* <a className="navbar-brand" href="/">{props.title}</a> */}
 
         {/* Add when github pages */}
-        <a className="navbar-brand" href="#">{props.title}</a>
+        <a className="navbar-brand" href="/">{props.title}</a>
+
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -25,7 +26,8 @@ export default function Navbar(props) {
               {/* <a className="nav-link active" aria-current="page" href="/">Home</a> */}
 
               {/* Add when github pages */}
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="/home">Home</a>
+
 
 
             </li>
