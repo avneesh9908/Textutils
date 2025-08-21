@@ -157,6 +157,20 @@ export default function TextForm(props) {
         >
           {loading ? "Beautifying..." : "Beautify with AI"}
         </button>
+         <button
+          disabled={text.length === 0 || loading}
+          className="btn btn-primary mx-1 my-1"
+          onClick={texttospeech}
+        >
+          {loading ? "Beautifying..." : "text to speech conversion"}
+        </button>
+         <button
+          disabled={text.length === 0 || loading}
+          className="btn btn-primary mx-1 my-1"
+          onClick={texttoImage}
+        >
+          {loading ? "Beautifying..." : "text to Image conversion"}
+        </button>
       </div>
       <div
         className="container my-3"
